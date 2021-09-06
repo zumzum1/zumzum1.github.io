@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+     <head>
+          <meta charset="utf-8">
+          <title>leandro!</title>
+          <link href="assets/css/fonts.css" rel="stylesheet">
+          <link href="assets/css/nav-bar.css" rel="stylesheet">
+          <link href="assets/css/menu.css" rel="stylesheet">
+          <link href="assets/css/projects-section.css" rel="stylesheet">
+          <link href="assets/css/contact-section.css" rel="stylesheet">
+          <script src="assets/js/jquery.js"></script>
+          <script src="assets/js/nav-bar.js"></script>
+          <script src="assets/js/menu.js"></script>
+     </head>
+     <body>
+          <nav class="nav-bar">
+               <a href="index.html">
+                    leandro!
+               </a>
+               <a id="openMenu">
+                    menu
+               </a>
+          </nav>
+          <section class="projects-section">
+               <h2>
+                    Meus projetos
+               </h2>
+               <section class="projects-grid">
+                    <div class="project">
+                         <a href="ingarage.html">
+                              <img src="assets/img/projects/ingarage/capa.png" alt="Preview do projeto">
+                              <div>
+                                   <h3>
+                                        INGARAGE
+                                   </h3>
+                              </div>
+                         </a>
+                    </div>
+                    <div class="project">
+                         <a href="vormator.html">
+                              <img src="assets/img/projects/vormator/capa.jpg" alt="Preview do projeto">
+                              <div>
+                                   <h3>
+                                        VORMATOR
+                                   </h3>
+                              </div>
+                         </a>
+                    </div>
+               </section>
+          </section>
+          <section class="contact-section" id="contact">
+               <h2>
+                    Quer trabalhar comigo?
+               </h2>
+               <p>
+                    Tem algum projeto ou apenas quer trocar uma idéia? Deixa uma mensagem aí.
+               </p>
+               <form action="https://formspree.io/leandroolissantos@gmail.com" method="post">
+                    <input type="text" name="name" placeholder="NOME" required>
+                    <input type="email" name="_replyto" placeholder="EMAIL" required>
+                    <input type="text" name="mensagem" placeholder="MENSAGEM" required>
+                    <input type="hidden" name="_next" value="https://leandrozz.github.io/projects.html" />
+                    <input type="submit" value="ENVIAR">
+               </form>
+          </section>
+          <div class="menu" id="menu">
+               <nav>
+                    <ul>
+                         <li><a href="index.html">HOME</a></li>
+                         <li><a href="about.html">SOBRE MIM</a></li>
+                         <li><a href="projects.html">PROJETOS</a></li>
+                         <li><a href="#contact">CONTATO</a></li>
+                    </ul>
+               </nav>
+               <span id="closeMenu">
+                    X
+               </span>
+          </div>
+     </body>
+</html>
