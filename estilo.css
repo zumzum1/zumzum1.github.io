@@ -13,7 +13,7 @@
 
 body{
   background-color: #f3f3f3;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 #bola{
@@ -66,7 +66,7 @@ body{
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   max-width: 715px;
-  margin-top: 75px;
+  margin-top: 150px;
   color: #292929;
 }
 
@@ -118,8 +118,6 @@ body{
   body{
     overflow-y: visible;
   }
-
-
 }
 
 @media only screen and (max-width: 500px){

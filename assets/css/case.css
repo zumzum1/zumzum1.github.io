@@ -1,0 +1,31 @@
+section.case {
+  max-width: 660px;
+  margin: auto;
+  margin-top: 140px;
+  padding: 0 50px; }
+  section.case h1 {
+    font-family: 'Muli', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0px;
+    margin-bottom: 25px; }
+  section.case p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+    color: black;
+    margin: 0px; }
+  section.case h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    color: black;
+    margin: 0px;
+    margin-top: 70px;
+    margin-bottom: 10px; }
+  section.case img {
+    margin-top: 25px; }
+
+section.contact-section {
+  margin-top: 140px; }

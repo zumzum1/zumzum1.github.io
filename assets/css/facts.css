@@ -1,0 +1,55 @@
+section.facts {
+  max-width: 660px;
+  margin: auto;
+  margin-top: 140px;
+  padding: 0 50px; }
+  section.facts h2 {
+    font-family: 'Muli', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0px;
+    margin-bottom: 25px; }
+  section.facts div.fact {
+    width: 400px;
+    height: 260px;
+    position: relative; }
+    section.facts div.fact:nth-child(odd) {
+      margin-left: 260px; }
+      section.facts div.fact:nth-child(odd) .desc-fact {
+        position: absolute;
+        top: 110px;
+        left: -260px; }
+    section.facts div.fact .desc-fact {
+      width: 390px;
+      background-color: #FFFCFC;
+      position: absolute;
+      top: 110px;
+      left: 270px;
+      padding: 45px 40px;
+      text-align: left;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4);
+      box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.4); }
+      section.facts div.fact .desc-fact h3 {
+        margin: 0px 0px 10px 0px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 28px;
+        font-weight: normal;
+        color: black; }
+      section.facts div.fact .desc-fact p {
+        margin: 0px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 28px;
+        font-weight: 300;
+        color: black; }
+  section.facts .spider-man {
+    margin-top: 160px; }
+  section.facts .jokes {
+    margin-top: 160px; }
+  section.facts .dromedary {
+    margin-top: 160px; }
+
+section.contact-section {
+  margin-top: 258px; }
