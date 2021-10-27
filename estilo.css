@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Zaio";
-  src: url("zaio.otf") format("opentype"),
-       url("zaio.ttf") format("truetype");
+  src: url("Zaio.otf") format("opentype"),
+       url("Zaio.ttf") format("truetype");
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
@@ -29,7 +29,6 @@ body{
 }
 
 .content{
-  /* background: red; */
   box-sizing: border-box;
   padding: 45px 25px 0px 25px;
   position: absolute;
